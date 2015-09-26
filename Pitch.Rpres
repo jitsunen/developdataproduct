@@ -1,0 +1,54 @@
+Data Explorer
+========================================================
+author: Jitsunen
+date: 26th September, 2015
+transition: fade
+font-import: http://fonts.googleapis.com/css?family=Risque
+font-family: 'Risque'
+
+
+Why?
+========================================================
+
+Data Science is the hottest topic across Industries. Its growing in popularity due to the following reasons
+
+- Massive Data Volumes
+- Moore's Law
+- Improved Computational Techniques
+
+Phases
+========================================================
+
+A Data Science project has the following phases
+
+- Exploratory Data Analysis
+- Data Pre-processing
+- Model fitting
+- Model selection
+- Prediction/Inference
+
+Data Exploration
+========================================================
+
+During the Data Exploration phase, a Data Scientist explores the data both by looking at the raw values and drawing some graphical plots.
+
+One of such plots, pairwise plot, shows the relationships between pairs of all of the variables in the data. 
+
+```{r, echo=FALSE}
+pairs(~., cars)
+```
+
+Pairwise plots are very good at showing variable correlations.
+
+Why Data Explorer?
+========================================================
+
+The Data Explorer tool is one of best tools to perform exploration for any data set available on the Internet in the form of a CSV file. Support for other types of data formats will be added over time.
+
+The biggest reason to start using this tool is its cost. 
+
+*Its free!*.
+
+https://jitsunen.shinyapps.io/Assignment
+
+Thank you.
